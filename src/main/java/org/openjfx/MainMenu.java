@@ -49,7 +49,7 @@ public class MainMenu extends MenuBar {
 						images.getChildren().add(imgv);
 
 					} catch (FileNotFoundException e) {
-						System.out.println("there is file error : " + e);
+						System.out.println("File Not Found : " + file);
 					}
 
 				}
